@@ -1,0 +1,49 @@
+PODS:
+  - FaceCoreSDK (5.1.315)
+  - FaceSDK (5.1.1482):
+    - RegulaCommon (= 6.8.324)
+  - Flutter (1.0.0)
+  - flutter_face_api (5.1.6):
+    - FaceSDK (= 5.1.1482)
+    - Flutter
+  - flutter_face_core (5.1.0):
+    - FaceCoreSDK (= 5.1.315)
+    - Flutter
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - RegulaCommon (6.8.324)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_face_api (from `.symlinks/plugins/flutter_face_api/ios`)
+  - flutter_face_core (from `.symlinks/plugins/flutter_face_core/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FaceCoreSDK
+    - FaceSDK
+    - RegulaCommon
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_face_api:
+    :path: ".symlinks/plugins/flutter_face_api/ios"
+  flutter_face_core:
+    :path: ".symlinks/plugins/flutter_face_core/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+
+SPEC CHECKSUMS:
+  FaceCoreSDK: 8c21e280b0e96d526ac6eccc20d6fbf360104d99
+  FaceSDK: da20b64d6a22bf92142b014599ddc14caac133a6
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_face_api: dad8039607c7d97cbd94eb287b73c1a84d85ec00
+  flutter_face_core: a5b5564dbea45862b9e0e56145a146c6f09823e5
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  RegulaCommon: 23bcd2c9448da7946b67ea1408a9b710576376ac
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.11.3
